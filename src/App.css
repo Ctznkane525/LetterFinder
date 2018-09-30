@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
   height: 100%;
@@ -49,8 +51,78 @@ body, html {
 
 .filler
 {
-  border-radius: 0px 0px 51px 51px;
+  border-radius: 51px 51px 51px 51px;
   width: 100%;
   background-color: #76B4FF;
   transition: width .2s ease-in;
+}
+
+.youwin
+{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 25%;
+  top:15%;
+  background-color: red;
+  border-radius: 25px;
+  color: white;
+  vertical-align: middle;
+  display: table;
+  background-color: #037408;
+  border-color: #552701;
+  border-style: solid;
+  border-width: 5px;
+}
+
+@font-face {
+  font-family: "Pineapple Demo";
+  src: url(./PineappleFont.woff);
+  font-weight: bold;
+}
+
+.youwin span {
+  vertical-align:middle;
+  display: table-cell;
+  text-align: center;
+  width: 100%;
+  font-family: 'Pineapple Demo';
+  border-radius: 10px;
+}
+
+.youwin span img {
+  border-radius: 10px;
+  width: 25%;
+  height: 50%
+}
+
+
+.youwin span button {
+  vertical-align:middle;
+  text-align: center;
+  font-family: 'Pineapple Demo';
+  font-size: 16px;
+  border-radius: 10px;
+  border-color: black
+}
+
+.title
+{
+  position: absolute;
+  width: 50%;
+  height: 10%;
+  left: 25%;
+  top:0%;
+  border-radius: 25px;
+  vertical-align: middle;
+  display: table;
+}
+
+.title span {
+  vertical-align:middle;
+  display: table-cell;
+  text-align: center;
+  width: 100%;
+  font-family: 'Pineapple Demo';
+  color: #552701;
 }
